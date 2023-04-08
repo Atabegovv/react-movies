@@ -7,8 +7,8 @@ class Search extends React.Component {
 	};
 
 	handleKey = (event) => {
-		if(event.key === 'Enter'){
-			this.props.searchMovies(this.state.search)
+		if (event.key === 'Enter') {
+			this.props.searchMovies(this.state.search);
 		}
 	};
 
@@ -17,8 +17,7 @@ class Search extends React.Component {
 							<div className="input-field ">
 								<input 
 									className="validate" 
-									id="first_name2" 
-									placeholder="vvedite zapros"
+									placeholder="search ..."
 									type="search" 
 									value={this.state.search}
 									onChange={(e) => this.setState({search: e.target.value})}

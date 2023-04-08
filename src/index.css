@@ -16,6 +16,7 @@ code {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+	background-color: #fff3e0;
 }
 
 .main {
@@ -38,4 +39,10 @@ code {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 	gap: 30px;
+}
+
+.input-field input[type=search]{
+	box-sizing: border-box;
+	padding: 0 10px;
+	border-bottom: 1px solid #ef6c00;
 }
